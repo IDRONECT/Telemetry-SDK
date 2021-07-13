@@ -1,0 +1,30 @@
+{
+  "name": "telemetry-sdk",
+  "version": "1.0.0",
+  "description": "Official IDRONECT JavaScript Telemetry SDK",
+  "main": "index.js",
+  "scripts": {
+    "generate": "openapi-generator-cli generate -i https://telemetry.idronect.com/api-docs.json -g javascript -o ./sdk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDRONECT/Telemetry-SDK.git"
+  },
+  "keywords": [
+    "telemetry",
+    "drones",
+    "sdk",
+    "api",
+    "idronect",
+    "aviation"
+  ],
+  "author": "IDRONECT",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/IDRONECT/Telemetry-SDK/issues"
+  },
+  "homepage": "https://github.com/IDRONECT/Telemetry-SDK#readme",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.3.6"
+  }
+}
