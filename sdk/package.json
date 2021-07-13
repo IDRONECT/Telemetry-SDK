@@ -1,6 +1,6 @@
 {
   "name": "telemetry_api",
-  "version": "TEL-1.2.5",
+  "version": "1.2.5",
   "description": "The_telemetry_API_allows_you_to_send_realtime_telemetry_of_your_aircrafts_into_your_IDRONECT_account__It_will_help_you_to_log_your_flights_and_allow_you_to_automate_your_maintenance_folow_up_",
   "license": "Unlicense",
   "main": "dist/index.js",

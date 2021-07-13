@@ -4,7 +4,9 @@
   "description": "Official IDRONECT JavaScript Telemetry SDK",
   "main": "index.js",
   "scripts": {
-    "generate": "openapi-generator-cli generate -i https://telemetry.idronect.com/api-docs.json -g javascript -o ./sdk"
+    "build": "cd sdk && npm i && npm run build",
+    "generate": "openapi-generator-cli generate -i https://telemetry.idronect.com/api-docs.json -g javascript -o ./sdk",
+    "publish": "cd sdk && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
