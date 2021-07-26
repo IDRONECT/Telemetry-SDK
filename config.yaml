@@ -1,6 +1,5 @@
-npmName: "telemery-sdk"
-npmVersion: 1.2.5
+npmName: "telemetry-sdk"
+## NPM version is not the same as the API right now (this will change in the future)
+npmVersion: 1.0.1
 supportsES6: true
 useObjectParameters: true
-files:
-  AUTHORS.md: {}
