@@ -1,0 +1,6 @@
+npmName: "telemery-sdk"
+npmVersion: 1.2.5
+supportsES6: true
+useObjectParameters: true
+files:
+  AUTHORS.md: {}
