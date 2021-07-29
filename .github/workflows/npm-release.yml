@@ -1,4 +1,6 @@
-- uses: mikeal/merge-release@v4.0.7
-  env:
-    DEPLOY_DIR: sdk
-    SRC_PACKAGE_DIR: sdk
+jobs:
+  auto-merge:
+    - uses: mikeal/merge-release@v4.0.7
+    env:
+      DEPLOY_DIR: sdk
+      SRC_PACKAGE_DIR: sdk
