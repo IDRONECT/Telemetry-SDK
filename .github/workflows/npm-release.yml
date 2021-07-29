@@ -1,12 +1,15 @@
 on: [push, pull_request]
 
 jobs:
-  auto-merge:
+  auto-publish:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [14.x]
     steps:
-      - uses: mikeal/merge-release@v4.0.7
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Publish package to npm
+        uses: mikeal/merge-release@v4.0.7
         env:
           SRC_PACKAGE_DIR: sdk
