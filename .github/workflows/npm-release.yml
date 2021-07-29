@@ -12,4 +12,5 @@ jobs:
       - name: Publish package to npm
         uses: mikeal/merge-release@v4.0.7
         env:
-          SRC_PACKAGE_DIR: sdk
+          DEPLOY_DIR: ../../sdk
+          SRC_PACKAGE_DIR: ../../sdk
