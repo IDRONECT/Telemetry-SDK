@@ -2,6 +2,10 @@ on: [push, pull_request]
 
 jobs:
   auto-merge:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x, 14.x]
     steps:
       - uses: mikeal/merge-release@v4.0.7
         env:
