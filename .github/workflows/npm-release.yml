@@ -5,9 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [14.x]
     steps:
       - uses: mikeal/merge-release@v4.0.7
         env:
-          DEPLOY_DIR: sdk
           SRC_PACKAGE_DIR: sdk
