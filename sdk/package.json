@@ -1,6 +1,6 @@
 {
   "name": "telemetry-sdk",
-  "version": "1.0.1",
+  "version": "1.3.0",
   "description": "OpenAPI client for telemetry-sdk",
   "author": "OpenAPI-Generator",
   "main": "./dist/index.js",
